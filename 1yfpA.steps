@@ -1,0 +1,25 @@
+1yfp steps
+----------
+
+download 1yfp.pdb from rcsb.org
+load 1yfp.pdb in pymol
+select ca, chain A
+save as 1yfpA.pdb
+load 1yfpA.pdb in pymol
+type findSurfaceResidues
+save atoms as 1yfpA_exposed_atm.pdb
+save residues as 1yfpA_exposed_res.pdb
+select helix, ss H
+save as 1yfpA_helix.pdb
+select sheet, ss S
+save as 1yfpA_sheet.pdb
+
+output from running gly18.py
+----------------------------
+
+sheet -- [162, 107, 168, 202, 43, 94*, 34, 223, 111, 99, 180, 149, 153, 122, 175, 26, 30, 21]
+helix -- [156, 5*, 79]
+coil --  [129, 101, 39, 173, 142, 146, 214, 23]
+
+note: residue 94 points inward to the solvent cavity
+      residue 5 is on the N-terminal alpha helix
