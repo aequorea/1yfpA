@@ -1,5 +1,5 @@
 # 1yfpA
-Files for glycosylation of YFP
+Glycosylating YFP
 
 <p align="center">
   <img src="1yfpA.png" width="350"/>
