@@ -9,7 +9,7 @@ We are not the first to try designing glycosylation sites into a GFP based molec
 
 We note that gly20.py does not suggest residue 80 as a potential glycosylation site. This was the site that did not fold. However gly20.py does suggest residues 133 and 172 as potential glycosylation sites. Although residue 172 was not engineered as point mutations, we note that mutations in the vicinity of 172 did not result in a misfolded protein, and residue 133 not only folded but was glycosylated as well.
 
-Here are the steps for running gly20.py on 1yfp.pdb along with the predictions for potential glycosylation sites. We note that at least one prediction will likely not function correctly as the sidechain is pointing inward toward YFP's solvent pocket. This is residue 203. A more sophisticated solvent accessibility algorithm or some other method of telling the difference between the inside and the outside of the protein might be desireable.
+Here are the steps for running gly20.py on 1yfp.pdb along with the predictions for potential glycosylation sites. We note that at least one prediction will likely not be glycosylated with an outward pointing glycan chain as the sidechain is pointing inward toward YFP's solvent pocket. This is residue 203. A more sophisticated solvent accessibility algorithm or some other method of telling the difference between the inside and the outside of the protein might be desireable. Meanwhile what to do about residues with sidchains pointing toward cavities is being resolved manually. In this case, it might be interesting to see what happens if the mutation is made anyway since it might result in a molecule with different spectral properties.
 
 1yfp steps (using pymol)
 ------------------------
