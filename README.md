@@ -2,7 +2,7 @@
 Glycosylating YFP
 
 <p align="center">
-  <img src="1yfpA.png" width="350"/>
+  <img src="1yfpA.png" width="500"/>
 </p>
 
 We are not the first to try designing glycosylation sites into a GFP based molecule. In "Expression of a glycosylated GFP as a bivalent reporter in expcytosis" (DOI:10.1007/s00299-009-0799-7), three N-linked glycosylation sites were engineered into a GFP based molecule. These sites were residues 80, 133, and 172. Residue 80 did not fold. Residue 133 folded and was glycosylated. Residue 172 was mutated with some additional inserted residues. It folded but was not glycosylated. This paper was nice in that it clearly illustrated each of the possible outcomes of engineering glycosylation sites into an existing protein.
